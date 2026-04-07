@@ -1,0 +1,9 @@
+adapter: mplug_owl3
+name: mPLUG-Owl3-2B
+model_path: mPLUG/mPLUG-Owl3-2B-241014
+trust_remote_code: true
+torch_dtype: auto
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

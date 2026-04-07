@@ -1,0 +1,9 @@
+adapter: hf_transformers
+name: Aria
+model_path: rhymes-ai/Aria
+trust_remote_code: true
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

@@ -1,0 +1,38 @@
+# PSVBench - core dependencies (required for all adapters)
+PyYAML>=5.4
+tqdm>=4.60
+Pillow>=9.0
+imageio-ffmpeg>=0.5.0
+
+# Local HuggingFace models (Qwen-VL, InternVL, LLaVA-OneVision, VideoChat-Flash, VideoLLaMA3, etc.)
+torch>=2.0
+torchvision>=0.15
+transformers>=4.40
+numpy>=1.22
+decord>=0.6.0                   # InternVL, LLaVA-Video/NeXT, LongVA
+
+# --------------------------------------------------------------------------
+# Everything below is OPTIONAL — install only what your adapter needs.
+# See README.md "Installation" for per-adapter instructions.
+# --------------------------------------------------------------------------
+
+# mPLUG-Owl3 (requires specific transformers version — use a separate env if needed)
+# transformers==4.46.3
+
+# LLaVA-Video-7B-Qwen2
+# pip install git+https://github.com/LLaVA-VL/LLaVA-NeXT.git
+
+# LongVA
+# git clone https://github.com/EvolvingLMMs-Lab/LongVA.git && cd LongVA && pip install -e .
+
+# VILA 1.5 / NVILA
+# git clone https://github.com/NVlabs/VILA.git && cd VILA && pip install -e .
+
+# ViLAMP
+# git clone https://github.com/steven-ccq/ViLAMP.git && cd ViLAMP && pip install -e .
+# sentence-transformers>=2.2      # for clip-ViT-B-32 loading
+
+# FlexSelect
+# git clone https://github.com/yunzhuzhang0918/flexselect && cd flexselect && pip install -e .
+# qwen-vl-utils>=0.0.8
+

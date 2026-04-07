@@ -1,0 +1,10 @@
+adapter: hf_transformers
+name: VideoLLaMA3-2B
+model_path: DAMO-NLP-SG/VideoLLaMA3-2B
+trust_remote_code: true
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

@@ -1,0 +1,9 @@
+adapter: hf_transformers
+name: Qwen3-VL-32B-Instruct
+model_path: Qwen/Qwen3-VL-32B-Instruct
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

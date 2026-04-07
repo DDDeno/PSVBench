@@ -1,0 +1,13 @@
+# Requires LongVA: pip install git+https://github.com/EvolvingLMMs-Lab/LongVA.git
+adapter: longva
+name: LongVA-7B
+model_path: lmms-lab/LongVA-7B
+longva_root: ./LongVA  # Path to cloned LongVA repo
+model_name: llava_qwen
+conv_template: qwen_1_5
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

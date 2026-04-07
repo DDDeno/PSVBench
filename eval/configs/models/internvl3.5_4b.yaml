@@ -1,0 +1,10 @@
+adapter: internvl_chat
+name: InternVL3.5-4B
+model_path: OpenGVLab/InternVL3_5-4B
+media: videos
+trust_remote_code: true
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

@@ -1,0 +1,9 @@
+adapter: videochat_flash
+name: VideoChat-Flash-Qwen2.5-2B-res448
+model_path: OpenGVLab/VideoChat-Flash-Qwen2_5-2B_res448
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

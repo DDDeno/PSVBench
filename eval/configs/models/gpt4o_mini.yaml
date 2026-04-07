@@ -1,0 +1,9 @@
+adapter: openai
+name: gpt-4o-mini
+model: gpt-4o-mini
+max_tokens: 16
+temperature: 0.0
+eval:
+  num_frames: 32
+  max_frames: 64
+  image_max_side: 1080

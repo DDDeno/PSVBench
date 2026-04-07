@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation outputs
+results/
+*.jsonl
+
+# Secrets
+.env
+*.key
+credentials.json
+
+# Large files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+
+# Excluded project folders
+scripts/
+tasks/

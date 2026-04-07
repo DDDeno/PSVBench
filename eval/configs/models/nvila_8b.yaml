@@ -1,0 +1,13 @@
+# Requires VILA repo: git clone https://github.com/NVlabs/VILA && pip install -e .
+adapter: vila
+name: NVILA-8B
+model_path: Efficient-Large-Model/NVILA-8B
+vila_root: ./VILA  # Path to cloned VILA repo
+model_name: nvila-8b
+conv_template: vicuna_v1
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

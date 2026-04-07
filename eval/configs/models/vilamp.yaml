@@ -1,0 +1,14 @@
+# Requires ViLAMP: git clone https://github.com/steven-ccq/ViLAMP && pip install -e .
+adapter: vilamp
+name: ViLAMP
+model_path: orange-sk/ViLAMP-llava-qwen
+vilamp_root: ./ViLAMP  # Path to cloned ViLAMP repo
+clip_model_path: sentence-transformers/clip-ViT-B-32
+model_name: llava_qwen
+conv_template: qwen_1_5
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 8
+eval:
+  num_frames: 32
+  max_frames: 64

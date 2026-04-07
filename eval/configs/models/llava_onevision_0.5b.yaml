@@ -1,0 +1,9 @@
+adapter: hf_transformers
+name: LLaVA-OneVision-0.5B
+model_path: llava-hf/llava-onevision-qwen2-0.5b-ov-hf
+media: videos
+torch_dtype: bfloat16
+max_new_tokens: 32
+eval:
+  num_frames: 32
+  max_frames: 64
